@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad
 {
-    MSMenuView *menu=[[MSMenuView alloc]initWithFrame:CGRectMake(0, 400, 0, 0)];
+    MSMenuView *menu=[[MSMenuView alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height+55, 0, 0)];
     [menu setDelegate:self];
    // [menu setBackgroundColor:[UIColor whiteColor]];
     [self.view addSubview:menu];
